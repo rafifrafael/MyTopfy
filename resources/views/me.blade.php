@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>MyTopfy</title>
@@ -138,25 +139,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-    {{-- <h1>Top Tracks</h1>
-        Hello 
-        <img src="{{ $profileImage }}" alt="{{ $displayName }}'s profile picture"
-            class="w-32 h-32 object-cover rounded-full">
-        <ul>
-            @foreach ($tracks as $track)
-                <li>
-                    <strong>{{ $track['name'] }}</strong> by
-                    @foreach ($track['artists'] as $artist)
-                        {{ $artist['name'] }}
-                    @endforeach
-                </li>
-            @endforeach
-        </ul> --}}
-
     <script src="https://kit.fontawesome.com/237c69a9d4.js" crossorigin="anonymous"></script>
 </body>
 
