@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ asset('build/assets/app-c796ac3d.css') }}">
-    {{-- @vite('resources/css/app.css') --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 
     <title>MyTopfy</title>
@@ -112,8 +110,6 @@
         </section>
     </main>
 
-    {{-- @vite('resources/js/app.js') --}}
-    <script src="{{asset('build/assets/app-4373205d.js')}}"></script>
     <script src="https://kit.fontawesome.com/237c69a9d4.js" crossorigin="anonymous"></script>
 </body>
 
