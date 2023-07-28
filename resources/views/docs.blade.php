@@ -16,14 +16,14 @@
           <header class="pb-3 mb-4 border-bottom">
             <nav class="navbar bg-body-tertiary">
               <div class="container-fluid">
-                <a class="navbar-brand" href="https://mytopfy.vercel.app/">
+                <a class="navbar-brand" href="/">
                   MyTopfy
                 </a>
               </div>
             </nav>
           </header>
       
-          <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="p-5 mb-4 bg-info rounded-3">
             <div class="container-fluid py-5">
               <h1 class="display-5 fw-bold">Read Me</h1>
               <p class="col-md-8 fs-4">Because the <strong>Spotify API</strong> requires approval to be used with your respective accounts, for now it can only be used with the account that I have provided below. 
@@ -35,8 +35,9 @@
             <div class="col-md-6">
               <div class="h-100 p-5 text-bg-dark rounded-3">
                 <h2>Testing Account</h2>
-                <p>Email : 	vavim56858@sportrid.com</p>
-                <p>Password : mytopfytesting</p>
+                <p>If you are already logged in to Spotify in your browser, it's better to access this application with Incognito so you don't have to re-login to your account.</p>
+                <p><strong>Email</strong> : 	vavim56858@sportrid.com<br>
+                   <strong>Password</strong> : mytopfytesting</p>
                 <a href="/" target="_blank" class="btn btn-outline-light" type="button">Try now!</a>
               </div>
             </div>
