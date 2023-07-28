@@ -45,8 +45,8 @@
         <br><br><br>
 
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-lg-4 col-12 mb-lg-0 mb-3">
                     <div class="accordion shadow-lg" id="accordionExample1">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne1">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-12 mb-lg-0 mb-3">
                     <div class="accordion shadow-lg" id="accordionExample2">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne1">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <div class="accordion shadow-lg" id="accordionExample3">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne1">
