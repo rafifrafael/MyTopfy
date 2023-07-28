@@ -13,7 +13,7 @@ class SpotifyController extends Controller
 
     public function redirect()
     {
-        $scopes = 'user-read-private user-read-email user-top-read'; // Add required scopes here
+        $scopes = 'user-top-read'; // Add required scopes here
         $authorizeUrl = 'https://accounts.spotify.com/authorize';
         $parameters = [
             'response_type' => 'code',

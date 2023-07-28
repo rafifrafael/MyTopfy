@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/docs', function () {
+    return view('docs');
+});
 
 Route::get('/redirect', [SpotifyController::class, 'redirect']);
 Route::get('/callback', [SpotifyController::class, 'callback']);
